@@ -10,7 +10,7 @@
 
 ### - Linux
 
-_Durante esta sprint, foi introduzido um aprendizado sobre o Linux, que é uma poderosa e versátil plataforma de código aberto que oferece uma ampla gama de recursos e benefícios para usuários individuais, empresas e organizações em todo o mundo. Durante o curso, foram mostradas formas de usar o Linux durante a carreira profissional como desenvolvedor, desde conceitos básicos até avançados._
+_Durante está sprint, foi introduzido um aprendizado sobre o Linux, que é uma poderosa e versátil plataforma de código aberto que oferece uma ampla gama de recursos e benefícios para usuários individuais, empresas e organizações em todo o mundo. Durante o curso, foram mostradas formas de usar o Linux durante a carreira profissional como desenvolvedor, desde conceitos básicos até os avançados._
 
 ### - Git e Github
 
