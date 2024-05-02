@@ -18,5 +18,6 @@ _Além disso, o Git e o GitHub foram ensinados desde o zero. O Git e o GitHub s�
 
 _No último módulo, introduzimos comandos de Markdown, que estão sendo utilizados neste Readme.md para torná-lo mais atrativo, melhorando assim o portfólio do desenvolvedor. Markdown é uma linguagem de marcação leve que permite adicionar formatação simples e eficaz ao texto._
 
-{x} Sprint1 ✅
-{x} Sprint2...
+1. [Sprint1 ✅]
+
+2. [Sprint2...]
