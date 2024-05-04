@@ -1,4 +1,4 @@
-## Passo-a-passo da resolução do desafio:
+## Passo a passo da resolução do desafio:
 
 A proposta do desafio era processar e gerar um relatório de vendas de produtos de uma loja online. Inicialmente, criei uma pasta no sistema Linux chamada Ecommerce e dentro dela coloquei o arquivo dados_de_vendas.csv. Em seguida, criei um arquivo executável chamado processamento_de_vendas.sh usando o editor de texto Nano. Dentro deste script, criei um diretório chamado vendas e copiei o arquivo dados_de_vendas.csv para dentro dele. Posteriormente, criei um subdiretório chamado backup e copiei novamente o arquivo dados_de_vendas.csv, desta vez incluindo a data em seu nome. Em seguida, renomeei o arquivo para backup-dados-data.csv. No diretório backup, criei um arquivo relatorio.txt contendo as informações solicitadas e comprimi o arquivo dados_de_vendas.csv. Para garantir o funcionamento do arquivo executável, utilizei o comando chmod +x processamento_de_vendas.sh.
 
