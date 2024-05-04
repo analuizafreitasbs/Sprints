@@ -12,6 +12,9 @@ id,produto,quantidade,preço,data
 7,bermuda,15,60.00,20/01/2023
 8,tênis,23,120.00,15/01/2023
 9,bone,16,10.00,10/01/2023
+
+
+
 Data do sistema: 2024/05/02 15:27
 Data do primeiro registro de venda: 27/01/2023
 Data do último registro de venda: 03/02/2023
@@ -26,6 +29,9 @@ id,produto,quantidade,preço,data
 7,bermuda,18,60.00,20/01/2023
 8,tênis,25,120.00,17/01/2023
 9,bone,18,10.00,18/01/2023
+
+
+
 Data do sistema: 2024/05/03 15:27
 Data do primeiro registro de venda: 28/01/2023
 Data do último registro de venda: 05/02/2023
@@ -40,6 +46,9 @@ id,produto,quantidade,preço,data
 7,bermuda,19,60.00,20/01/2023
 8,tênis,25,120.00,25/01/2023
 9,bone,20,10.00,18/01/2023
+
+
+
 Data do sistema: 2024/05/03 16:21
 Data do primeiro registro de venda: 28/01/2023
 Data do último registro de venda: 05/02/2023
