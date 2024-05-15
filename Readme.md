@@ -32,14 +32,14 @@ _SQL é uma linguagem de programação usada para gerenciar e manipular bancos d
         2. Fundamento da Segurança da Informação ✅
 
   ✅ 2. Sprint 1  
-  [cliqueparaacessar1](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint1)
+  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint1)
 
         1. Linux para Desenvolvedores (c/ terminal, Shell, Apache e +) ✅
 
         2. Git e GitHub do básico ao avançado (c/ gist e GitHub Pages) ✅
 
   ✅ 3. Sprint 2  
-  [cliqueparaacessar2](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint2)
+  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint2)
 
         1. SQL para Análise de Dados: Do básico ao avançado ✅
 
