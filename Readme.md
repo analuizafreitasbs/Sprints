@@ -24,7 +24,7 @@ _No último módulo, introduzimos comandos de Markdown, que estão sendo utiliza
 
         1. Métodos ágeis de A a Z ⌛
 
-        2. Fundamento da Segurança da Informação ⌛
+        2. Fundamento da Segurança da Informação ✅
 
   ✅ 2. Sprint 1 
 
@@ -32,7 +32,10 @@ _No último módulo, introduzimos comandos de Markdown, que estão sendo utiliza
 
         2. Git e GitHub do básico ao avançado (c/ gist e GitHub Pages) ✅
 
-  🔲 3. Sprint 2 ⌛
+  ✅ 3. Sprint 2 
+        1. SQL para Análise de Dados: Do básico ao avançado ✅
+        2. AWS Skill Builder - AWS Partner: Sales Accreditation ✅
+        
 
 
  ______________________________________________________________________________________
