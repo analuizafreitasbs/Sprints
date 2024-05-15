@@ -20,20 +20,25 @@ _Além disso, o Git e o GitHub foram ensinados desde o zero. O Git e o GitHub s�
 
 _No último módulo, introduzimos comandos de Markdown, que estão sendo utilizados neste Readme.md para torná-lo mais atrativo, melhorando assim o portfólio do desenvolvedor. Markdown é uma linguagem de marcação leve que permite adicionar formatação simples e eficaz ao texto._
 
+### - SQL
+
+_SQL é uma linguagem de programação usada para gerenciar e manipular bancos de dados relacionais. Com ela, podemos executar uma variedade de operações, como inserir, atualizar, excluir e consultar dados em um banco de dados. Aprendemos a usar o SQL por meio do pgAdmin, uma plataforma que oferece uma maneira intuitiva de interagir com bancos de dados, facilitando a criação e a administração de tabelas. Essas habilidades são essenciais tanto para profissionais de banco de dados quanto para desenvolvedores de software, pois permitem armazenar e manipular dados de maneira eficiente e segura._
+
+
   🔲 1. Cultura Ágil e Segurança 
 
         1. Métodos ágeis de A a Z ⌛
 
         2. Fundamento da Segurança da Informação ✅
 
-  ✅ 2. Sprint 1 
+  ✅ 2. Sprint 1 ![cliqueparaacessar1](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint1)
 
         1. Linux para Desenvolvedores (c/ terminal, Shell, Apache e +) ✅
 
         2. Git e GitHub do básico ao avançado (c/ gist e GitHub Pages) ✅
 
-  ✅ 3. Sprint 2 
-  
+  ✅ 3. Sprint 2 ![cliqueparaacessar2](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint2)
+
         1. SQL para Análise de Dados: Do básico ao avançado ✅
 
         2. AWS Skill Builder - AWS Partner: Sales Accreditation ✅
