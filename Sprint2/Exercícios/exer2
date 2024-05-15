@@ -1,0 +1,7 @@
+select codeditora as Codeditora,nome as NomeEditora, count (*) as QuantidadeLivros
+from livro
+join editora on livro.editora = editora.codeditora
+join endereco on editora.endereco = endereco.codendereco
+group by editora.nome, endereco.estado, endereco.cidade
+order by Quantidadelivros desc
+limit 5
