@@ -24,10 +24,14 @@ _No último módulo, introduzimos comandos de Markdown, que estão sendo utiliza
 
 _SQL é uma linguagem de programação usada para gerenciar e manipular bancos de dados relacionais. Com ela, podemos executar uma variedade de operações, como inserir, atualizar, excluir e consultar dados em um banco de dados. Aprendemos a usar o SQL por meio do pgAdmin, uma plataforma que oferece uma maneira intuitiva de interagir com bancos de dados, facilitando a criação e a administração de tabelas. Essas habilidades são essenciais tanto para profissionais de banco de dados quanto para desenvolvedores de software, pois permitem armazenar e manipular dados de maneira eficiente e segura._
 
+### - Python
 
-  🔲 1. Cultura Ágil e Segurança 
 
-        1. Métodos ágeis de A a Z ⌛
+
+
+  ✅ 1. Cultura Ágil e Segurança 
+
+        1. Métodos ágeis de A a Z ✅
 
         2. Fundamento da Segurança da Informação ✅
 
@@ -44,8 +48,13 @@ _SQL é uma linguagem de programação usada para gerenciar e manipular bancos d
         1. SQL para Análise de Dados: Do básico ao avançado ✅
 
         2. AWS Skill Builder - AWS Partner: Sales Accreditation ✅
-        
 
+  ✅ 4. Sprint 3  
+  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint3)
+
+        1. Python 3 - Curso Completo do Básico ao Avançado ✅
+
+        2. AWS Partner: Economias na nuvem AWS ✅
 
  ______________________________________________________________________________________
 
