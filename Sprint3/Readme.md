@@ -1,4 +1,5 @@
 # Desadio de Python:
+[Acessar:]()
 
 Para analisar o dataset do googleplaystore.csv e gerar as visualizações necessárias, segui um roteiro detalhado utilizando as bibliotecas Pandas e Matplotlib. Primeiro, carreguei o arquivo CSV com os dados dos aplicativos e, em seguida, limpei o dataset removendo as linhas duplicadas para garantir a precisão dos resultados. Com o dataset preparado, passei a realizar as análises específicas solicitadas. Todo esse processo aconteceu no Jupyter Notebook, onde primeiro criei um ambiente virtual no VS Code para executar os comandos.
 
