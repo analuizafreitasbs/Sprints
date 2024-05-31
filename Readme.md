@@ -20,11 +20,11 @@ _Além disso, o Git e o GitHub foram ensinados desde o zero. O Git e o GitHub s�
 
 _No último módulo, introduzimos comandos de Markdown, que estão sendo utilizados neste Readme.md para torná-lo mais atrativo, melhorando assim o portfólio do desenvolvedor. Markdown é uma linguagem de marcação leve que permite adicionar formatação simples e eficaz ao texto._
 
-### -  SQL
+###  -  SQL
 
 _O SQL é uma linguagem de programação usada para gerenciar e manipular bancos de dados relacionais. Com ela, podemos executar uma variedade de operações, como inserir, atualizar, excluir e consultar dados em um banco de dados. Aprendemos a usar o SQL por meio do pgAdmin, uma plataforma que oferece uma maneira intuitiva de interagir com bancos de dados, facilitando a criação e a administração de tabelas. Essas habilidades são essenciais tanto para profissionais de banco de dados quanto para desenvolvedores de software, pois permitem armazenar e manipular dados de maneira eficiente e segura._
 
-### - Python
+### -  Python
 
 _Python é uma linguagem de programação conhecida por sua simplicidade e legibilidade. Com uma sintaxe clara, permite que tarefas complexas sejam realizadas de forma concisa. É amplamente utilizada em diversos setores, como desenvolvimento web, ciência de dados e inteligência artificial. Durante o curso, aprendemos desde conceitos básicos como tipos de dados, controle de fluxo e funções, até tópicos avançados como manipulação de arquivos e uso de bibliotecas populares. Através de exemplos práticos, adquirimos uma base sólida e habilidades práticas, tornando-nos capazes de resolver problemas de programação de maneira eficiente e eficaz._
 
