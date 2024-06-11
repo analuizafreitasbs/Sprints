@@ -59,5 +59,5 @@ _Python é uma linguagem de programação conhecida por sua simplicidade e legib
  ______________________________________________________________________________________
 
   Grande abraço,
-
-Ana Luiza Freitas
+"
+Ana Luiza Freitas B Siqueira
