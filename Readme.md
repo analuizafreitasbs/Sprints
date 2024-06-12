@@ -28,6 +28,10 @@ _O SQL é uma linguagem de programação usada para gerenciar e manipular bancos
 
 _Python é uma linguagem de programação conhecida por sua simplicidade e legibilidade. Com uma sintaxe clara, permite que tarefas complexas sejam realizadas de forma concisa. É amplamente utilizada em diversos setores, como desenvolvimento web, ciência de dados e inteligência artificial. Durante o curso, aprendemos desde conceitos básicos como tipos de dados, controle de fluxo e funções, até tópicos avançados como manipulação de arquivos e uso de bibliotecas populares. Através de exemplos práticos, adquirimos uma base sólida e habilidades práticas, tornando-nos capazes de resolver problemas de programação de maneira eficiente e eficaz._
 
+### -  Docker
+
+_No curso de Docker que foi concluído, cobriu-se desde os fundamentos básicos até técnicas avançadas como a criação de imagens personalizadas e o gerenciamento de múltiplos contêineres com Docker Compose. Esta plataforma desempenha um papel fundamental no mercado atual, facilitando a padronização dos ambientes de desenvolvimento e assegurando consistência em diferentes plataformas. Isso não só simplifica a criação e distribuição de aplicações, mas também ajuda a economizar tempo ao evitar problemas de compatibilidade entre sistemas operacionais e configurações de máquinas distintas._
+
 
   ✅ 1. Cultura Ágil e Segurança 
 
@@ -56,8 +60,17 @@ _Python é uma linguagem de programação conhecida por sua simplicidade e legib
 
         2. AWS Partner: Economias na nuvem AWS ✅
 
+  ✅ 5. Sprint 4 
+  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint4)
+
+        1. Python 3 - Curso Completo do Básico ao Avançado ✅
+
+        2. Docker para Desenvolvedores (com Docker Swarm e Kubernetes) ✅
+
+        3. AWS Skill Builder - AWS Partner: Accreditation (Technical) (Portuguese) ✅
+
  ______________________________________________________________________________________
 
   Grande abraço,
 
-Ana Luiza Freitas B Siqueira
+Ana Luiza Freitas
