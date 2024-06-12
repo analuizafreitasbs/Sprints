@@ -1,0 +1,6 @@
+# PARA CONSTRUIR IMAGEM DOCKER
+docker build -t mascarar-dados .
+
+# PARA INICIAR O CONTAINER COM BASE NA IMAGEM
+docker run -it --name meu-container-mascarar mascarar-dados
+
