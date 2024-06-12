@@ -1,6 +1,6 @@
 # Desafio da sprint 4: 
 
-![docker](https://www.docker.com/wp-content/uploads/2021/09/Moby-Group-4-1110x747.jpeg)
+![docker](https://www.docker.com/wp-content/uploads/2021/09/Moby-Group-4-1110x747.jpeg){:height="200px" width="300px"}
 
 ### Etapa 1
 Inicialmente, eu construí uma imagem Docker usando um Dockerfile que continha as instruções para criar um ambiente específico. Após construir a imagem, executei um container a partir dela para testar e validar o ambiente configurado. Utilizei o carguru.py, que exibia um carro diferente a cada execução.
