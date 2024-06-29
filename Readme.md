@@ -32,6 +32,11 @@ _Python é uma linguagem de programação conhecida por sua simplicidade e legib
 
 _No curso de Docker que foi concluído, cobriu-se desde os fundamentos básicos até técnicas avançadas como a criação de imagens personalizadas e o gerenciamento de múltiplos contêineres com Docker Compose. Esta plataforma desempenha um papel fundamental no mercado atual, facilitando a padronização dos ambientes de desenvolvimento e assegurando consistência em diferentes plataformas. Isso não só simplifica a criação e distribuição de aplicações, mas também ajuda a economizar tempo ao evitar problemas de compatibilidade entre sistemas operacionais e configurações de máquinas distintas._
 
+### -  AWS
+
+_A AWS transformou a forma como empresas gerenciam serviços de TI na nuvem. Com o Amazon EC2, é possível criar e escalar servidores virtuais conforme necessário. A IAM permite um controle preciso sobre o acesso aos recursos da AWS, garantindo segurança. O Amazon S3 oferece armazenamento de objetos escalável e durável para dados e backups. Serviços como AWS Lambda automatizam processos de código, melhorando a eficiência operacional. A AWS assegura segurança avançada e conformidade regulatória, proporcionando confiança na gestão de dados críticos na nuvem._
+
+
 
   ✅ 1. Cultura Ágil e Segurança 
 
@@ -70,7 +75,16 @@ _No curso de Docker que foi concluído, cobriu-se desde os fundamentos básicos 
 
         3. AWS Skill Builder - AWS Partner: Accreditation (Technical) (Portuguese) ✅
 
- ______________________________________________________________________________________
+  ✅ 6. Sprint 5
+  
+  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint5)
+
+        1. AWS Skill Builder - AWS Cloud Quest: Cloud Practitioner ✅
+
+        2. Curso-padrão de preparação para o exame: AWS Certified Cloud Practitioner (CLF-C02) ✅
+
+
+ _____________________________________________________________________________________
 
   Grande abraço,
 

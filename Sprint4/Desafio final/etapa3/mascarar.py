@@ -7,7 +7,7 @@ def gerar_hash_sha1(string):
 
 if __name__ == "__main__":
     while True:
-        entrada = input("Digite uma string para gerar o hash SHA-1 (ou 'sair' para terminar): ")
+        entrada = input("Digite uma string: (ou 'sair' para terminar): ")
         if entrada.lower() == 'sair':
             break
         hash_resultado = gerar_hash_sha1(entrada)
