@@ -6,7 +6,6 @@ query_4_1 = """
     LIMIT 10;
 """
 # Duas funções de Agregação 
-
 query_4_2 = """
     SELECT SUM(CAST(VARENDIMENTOLIQUIDO AS FLOAT)) AS soma_rendimentos,  
            AVG(CAST(VARENDIMENTOLIQUIDO AS FLOAT)) AS media_rendimentos
