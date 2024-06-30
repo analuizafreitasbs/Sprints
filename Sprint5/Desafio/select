@@ -1,23 +1,42 @@
-SELECT 
-    NOSERVIDOR,
-    NUCPF,
-    NOCARGOEMPREGO,
-    NOORGAO,
-    UFUPAG,
-    NOCIDADERESIDENCIA,
-    NIVELESCOLARIDADE,
-    ANOMESINICIALAFAST,
-    ANOMESREFAFAST,
-    VARENDIMENTOLIQUIDO,
-    NOAFASTAMENTO,
-    SUM(CAST(VARENDIMENTOLIQUIDO AS FLOAT)) OVER() AS soma_rendimentos,
-    AVG(CAST(VARENDIMENTOLIQUIDO AS FLOAT)) OVER() AS media_rendimentos,
-    CASE 
-        WHEN CAST(VARENDIMENTOLIQUIDO AS FLOAT) > 5000 THEN 'ALTO'
-        ELSE 'BAIXO'
-    END AS categoria_rendimento,
-    COUNT(*) OVER() AS total_meses
-FROM  S3Object
-WHERE NOCARGOEMPREGO = 'TECNICO DE CONTABILIDADE'
-  AND NOORGAO = 'MINISTDA AGRICULTURA,PECUARIA E ABAST'
-LIMIT 10
+# Um cláusula que filtra dados usando pelo menos dois operadores lógicos
+query_4_1 = """
+    SELECT * 
+    FROM S3Object
+    WHERE (NOCARGOEMPREGO = 'AGENTE ADMINISTRATIVO' AND NOORGAO = 'MINISTDA AGRICULTURA,PECUARIA E ABAST') OR UFUPAG = 'DF'
+    LIMIT 10;
+"""
+# Duas funções de Agregação 
+
+query_4_2 = """
+    SELECT SUM(CAST(VARENDIMENTOLIQUIDO AS FLOAT)) AS soma_rendimentos,  
+           AVG(CAST(VARENDIMENTOLIQUIDO AS FLOAT)) AS media_rendimentos
+    FROM S3Object;
+"""
+#  Uma função Condicional
+query_4_3 = """
+    SELECT 
+         CASE 
+         WHEN CAST(VARENDIMENTOLIQUIDO AS FLOAT) > 5000 THEN 'ALTO'
+         ELSE 'BAIXO'
+        END AS categoria_rendimento
+    FROM S3Object
+    LIMIT 10;  
+"""
+# A QUERY 4.4 NÃO EXISTE, POIS ERA DE CONVERSÃO E ESSE PROCESSO DE CONVERSÃO JÁ TÁ DENTRO DA 4.3 E NA 4.2 TRANSFORMANDO 
+# OS NÚMEROS PARA FLOAT.
+
+# Uma função de Data
+query_4_5 = """
+    SELECT 
+        SUBSTRING(ANOMESREFAFAST, 1, 4) AS ano,
+        SUBSTRING(ANOMESREFAFAST, 5, 2) AS mes
+    FROM S3Object
+    LIMIT 10;
+"""
+# Uma função de String
+query_4_6 = """
+    SELECT
+        CHAR_LENGTH(NOSERVIDOR) AS tamanho_do_nome
+    FROM S3Object
+    LIMIT 10;
+"""

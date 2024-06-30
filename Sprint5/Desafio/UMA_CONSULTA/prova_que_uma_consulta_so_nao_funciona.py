@@ -1,7 +1,7 @@
 import boto3
 
 bucket_name = 'desafio.sprint5'
-file_name = 'afastrem-082017-utf8x.csv'  
+file_name = 'afastrem-082017-utf8x.csv'
 region_name = 'us-east-1'
 aws_access_key_id = 'ASIA47CRZEXO7U7BRYV7'
 aws_secret_access_key = 'O9By7wx3Q/VPOPn4wWDKi03MW0T0rFUXPCGJMo8a'
@@ -21,7 +21,14 @@ def execute_s3_select(query):
             Key=file_name,
             Expression=query,
             ExpressionType='SQL',
-            InputSerialization={'CSV': {'FileHeaderInfo': 'USE', 'RecordDelimiter': '\n', 'FieldDelimiter': ';', 'QuoteCharacter': '"'}},
+            InputSerialization={
+                'CSV': {
+                    'FileHeaderInfo': 'USE',
+                    'RecordDelimiter': '\n',
+                    'FieldDelimiter': ';',
+                    'QuoteCharacter': '"'
+                }
+            },
             OutputSerialization={'CSV': {}},
         )
 
@@ -33,65 +40,31 @@ def execute_s3_select(query):
     except Exception as e:
         print(f"Erro ao executar a consulta S3 Select: {e}")
 
+# Consulta combinada
+query_combined = """
+SELECT * 
+FROM S3Object
+WHERE (NOCARGOEMPREGO = 'AGENTE ADMINISTRATIVO' AND NOORGAO = 'MINISTDA AGRICULTURA,PECUARIA E ABAST') OR UFUPAG = 'DF'
+LIMIT 10;
 
-# Um cláusula que filtra dados usando pelo menos dois operadores lógicos
-query_4_1 = """
-    SELECT * 
-    FROM S3Object
-    WHERE (NOCARGOEMPREGO = 'AGENTE ADMINISTRATIVO' AND NOORGAO = 'MINISTDA AGRICULTURA,PECUARIA E ABAST') OR UFUPAG = 'DF'
-    LIMIT 10;
-"""
-# Duas funções de Agregação 
+SELECT SUM(CAST(ANOMESREFAFAST AS FLOAT)) AS soma_rendimentos,
+       AVG(CAST(ANOMESREFAFAST AS FLOAT)) AS media_rendimentos
+FROM S3Object;
 
-query_4_2 = """
-    SELECT SUM(CAST(ANOMESREFAFAST AS FLOAT)) AS soma_rendimentos,  
-           AVG(CAST(ANOMESREFAFAST AS FLOAT)) AS media_rendimentos
-    FROM S3Object;
-"""
-#  Uma função Condicional
-query_4_3 = """
-    SELECT 
-         CASE 
-         WHEN CAST(VARENDIMENTOLIQUIDO AS FLOAT) > 5000 THEN 'ALTO'
-         ELSE 'BAIXO'
-        END AS categoria_rendimento
-    FROM S3Object
-    LIMIT 10;  
-"""
-# A QUERY 4.4 NÃO EXISTE, POIS ERA DE CONVERSÃO E ESSE PROCESSO DE CONVERSÃO JÁ TÁ DENTRO DA 4.3 E NA 4.2 TRANSFORMANDO 
-# OS NÚMEROS PARA FLOAT.
+SELECT CASE WHEN CAST(VARENDIMENTOLIQUIDO AS FLOAT) > 5000 THEN 'ALTO' ELSE 'BAIXO' END AS categoria_rendimento
+FROM S3Object
+LIMIT 10;
 
-# Uma função de Data
-query_4_5 = """
-    SELECT 
-        SUBSTRING(ANOMESREFAFAST, 1, 4) AS ano,
-        SUBSTRING(ANOMESREFAFAST, 5, 2) AS mes
-    FROM S3Object
-    LIMIT 10;
-"""
-# Uma função de String
-query_4_6 = """
-    SELECT
-        CHAR_LENGTH(NOSERVIDOR) AS tamanho_do_nome
-    FROM S3Object
-    LIMIT 10;
+SELECT SUBSTRING(ANOMESREFAFAST, 1, 4) AS ano,
+       SUBSTRING(ANOMESREFAFAST, 5, 2) AS mes
+FROM S3Object
+LIMIT 10;
+
+SELECT CHAR_LENGTH(NOSERVIDOR) AS tamanho_do_nome
+FROM S3Object
+LIMIT 10;
 """
 
-print("Consulta 4.1:")
-execute_s3_select(query_4_1)
-
-print("\nConsulta 4.2:")
-execute_s3_select(query_4_2)
-
-print("\nConsulta 4.3:")
-execute_s3_select(query_4_3)
-
-# A QUERY 4.4 NÃO EXISTE, POIS ERA DE CONVERSÃO E ESSE PROCESSO DE CONVERSÃO JÁ TÁ DENTRO DA 4.3 E NA 4.2 TRANSFORMANDO 
-# OS NÚMEROS PARA FLOAT.
-
-print("\nConsulta 4.5:")
-execute_s3_select(query_4_5)
-
-print("\nConsulta 4.6:")
-execute_s3_select(query_4_6)
+print("Executando consulta combinada:")
+execute_s3_select(query_combined)
 
