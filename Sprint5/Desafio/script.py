@@ -44,7 +44,6 @@ query_4_1 = """
     LIMIT 10;
 """
 # Duas funções de Agregação 
-
 query_4_2 = """
     SELECT SUM(CAST(ANOMESREFAFAST AS FLOAT)) AS soma_rendimentos,  
            AVG(CAST(ANOMESREFAFAST AS FLOAT)) AS media_rendimentos
