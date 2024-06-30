@@ -1,4 +1,4 @@
-# *Certificados da Sprint 5 :*
+# *Certificado da Sprint 5 :*
 
 ## Certificado do curso da AWS para a prova  de certificação:
 
