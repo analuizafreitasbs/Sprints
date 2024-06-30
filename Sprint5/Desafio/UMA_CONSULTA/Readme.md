@@ -6,4 +6,4 @@ Ao tentar criar uma consulta única que cobrisse diferentes requisitos, como fil
 
 Foi mais eficaz estruturar consultas separadas, cada uma focando em um aspecto específico dos dados, pois assim o código funcionava corretamente.
 
-[erro](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint5/Desafio/UMA_CONSULTA/Captura%20de%20tela%202024-06-29%20235522.png?raw=true)
+![erro](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint5/Desafio/UMA_CONSULTA/Captura%20de%20tela%202024-06-29%20235522.png?raw=true)
