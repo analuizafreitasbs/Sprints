@@ -1,6 +1,6 @@
 # Certificado da Sprint 6 :
 
-## Certificado do curso da AWS para a prova  de certificação:
+## Certificado do curso da AWS para a prova de certificação:
 
 ![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Certificados/Imagens/13655_3_5472196_1720147594_AWS%20Course%20Completion%20Certificate_page-0001.jpg)
 

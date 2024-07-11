@@ -4,11 +4,11 @@ FROM python:3.8-slim
 WORKDIR /app
 
 COPY requirements.txt .
-COPY upload.py .
+COPY up.py .
 COPY movies.csv .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "upload.py"]
+CMD ["python", "up.py"]
 
-# Serve para o upload.py e para upload2.py, só trocar o arquivo e o copy para o de series.csv
+# Serve para o up.py e para up2.py, só trocar o arquivo .py e o copy para o de series.csv
