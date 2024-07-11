@@ -9,6 +9,7 @@ def upload_to_s3(local_file, bucket, s3_path):
         aws_access_key_id=(''),
         aws_secret_access_key=(''),
         aws_session_token=('')
+        # Está sem as chaves por motivos de segurança na hora de mandar pro git
     )
     try:
         # Faz o upload do arquivo para o bucket S3
