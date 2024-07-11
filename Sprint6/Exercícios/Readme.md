@@ -1,11 +1,19 @@
 # Exercícios da Sprint 6:
 
-Aconteceu um incidente comigo e, sem querer, apaguei os prints que eu tinha tirado dos exercícios na hora de commitar. Basicamente, fui commitar e esqueci os arquivos CSV juntos. O GitHub não aceita tantos megabytes de envio, então não enviou com o push e meio que travou. Procurei um comando para apagar um commit e, em vez de apagar, apareceu esta mensagem: "Deletion of directory 'Sprint6/Desafio' failed. Should I try again? (y/n)". Mesmo eu apertando "n", apagou as coisas do diretório. O principal, que era o desafio, eu recuperei, mas as imagens de evidências e exercícios não. Agradeço a compreensão de vocês. Acabou que ficaram apenas alguns prints não tão bons para mostrar o processo.
+Aconteceu um incidente comigo e, sem querer, apaguei os prints que eu tinha tirado dos exercícios na hora de commitar. Basicamente, fui commitar e esqueci os arquivos CSV juntos. O GitHub não aceita tantos megabytes de envio, então não enviou com o push e meio que travou. Procurei um comando para apagar um commit e, em vez de apagar, apareceu esta mensagem: "Deletion of directory 'Sprint6/Desafio' failed. Should I try again? (y/n)". Mesmo eu apertando "n", apagou as coisas do diretório. O principal, que era o desafio, eu recuperei, mas as imagens de evidências e exercícios não. Agradeço a compreensão de vocês. Acabou que ficaram apenas alguns prints não tão bons para mostrar o processo (Não fiz todos os exercícios de novo, pois adiantei o máximo da sprint já que estava com muitas da faculdade pra fazer)
 
 ### 1. Lab AWS S3
 
 ![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-08%20144635.png)
 
 ![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-08%20144915.png)
+
+![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-08%20145610.png)
+
+### 2. Lab AWS Athena
+
+![aws]()
+
+![aws]()
 
 ![aws]()
