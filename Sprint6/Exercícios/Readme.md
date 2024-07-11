@@ -10,10 +10,12 @@ Aconteceu um incidente comigo e, sem querer, apaguei os prints que eu tinha tira
 
 ![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-08%20145610.png)
 
+![aws]()
+
 ### 2. Lab AWS Athena
 
-![aws]()
+![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-08%20230308.png)
 
-![aws]()
+![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-09%20001546.png)
 
-![aws]()
+![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-09%20002123.png)
