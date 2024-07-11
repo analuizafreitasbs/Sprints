@@ -4,4 +4,8 @@ Aconteceu um incidente comigo e, sem querer, apaguei os prints que eu tinha tira
 
 ### 1. Lab AWS S3
 
+![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-08%20144635.png)
+
+![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-08%20144915.png)
+
 ![aws]()
