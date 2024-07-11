@@ -38,7 +38,7 @@ _A AWS transformou a forma como empresas gerenciam serviços de TI na nuvem. Com
 
 #   - Desafio final 
 
-_Este desafio tem como objetivo construir um Data Lake para armazenar, processar e analisar dados de filmes e séries, facilitando o aprendizado de conceitos essenciais de Data Engineering aprendidos no estágio, como Python, Docker e funções da AWS. A primeira etapa envolve a ingestão de arquivos CSV contendo dados brutos para a camada Raw no S3. Após armazenar os dados no Data Lake, eles serão processados e padronizados na segunda camada, sendo organizados e catalogados em tabelas._
+_O desafio tem como objetivo construir um Data Lake para armazenar, processar e analisar dados de filmes e séries, facilitando o aprendizado de conceitos essenciais de Data Engineering aprendidos no estágio, como Python, Docker e funções da AWS. A primeira etapa envolve a ingestão de arquivos CSV contendo dados brutos para a camada Raw no S3. Após armazenar os dados no Data Lake, eles serão processados e padronizados na segunda camada, sendo organizados e catalogados em tabelas._
 
 _Em seguida, será definido um modelo de dados dimensional que guiará um novo processamento com Apache Spark, transferindo os dados para a terceira camada, onde serão novamente catalogados. Com os dados processados na terceira camada, a última etapa envolve o consumo das informações para análise sobre os gêneros de filmes e séries designados para cada grupo. No meu caso, são drama e romance. Dashboards analíticos serão desenvolvidos para responder a perguntas específicas definidas por mim: "Qual ano de lançamento dos filmes mais bem avaliados de romance e drama?" e "Quais séries de drama e romance receberam nota acima de 8 e qual é a mais bem votada?". Essas perguntas guiam a exploração dos dados e a elaboração de insights significativos. O desafio, além de técnico, incentiva a análise crítica e a exploração das APIs do TMDB para enriquecer a compreensão dos dados._
 
@@ -88,12 +88,11 @@ _Em seguida, será definido um modelo de dados dimensional que guiará um novo p
 
         2. Curso-padrão de preparação para o exame: AWS Certified Cloud Practitioner (CLF-C02) ✅
 
-✅ 7. Sprint 6
+  ✅ 7. Sprint 6
   
   [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint6)
 
-        1. 
-
+        1. Todos os cursos de preparação para a prova da AWS (AWS Skill Builder) ✅
 
  _____________________________________________________________________________________
 
