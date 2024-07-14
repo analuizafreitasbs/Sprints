@@ -1,1 +1,7 @@
 # Desafio final (entrega 1): 
+
+Comecei baixando os arquivos CSV contendo dados de filmes e séries, organizando-os em uma pasta local no meu computador. Em seguida, desenvolvi um script Python para automatizar o envio desses arquivos para o Amazon S3, utilizando a biblioteca boto3 para interagir com os serviços da AWS. Optei por seguir o caminho pedido, garantindo que os arquivos fossem carregados separadamente para o meu data-lake na AWS, conforme solicitado.
+
+Para facilitar a execução e garantir que o processo fosse realizado de forma correta, configurei um ambiente Docker. Escrevi um Dockerfile especificando uma imagem base do Python, definindo o diretório de trabalho dentro do contêiner, instalando as dependências necessárias (como boto3) listadas no arquivo requirements.txt, e configurando o comando para iniciar a execução do script Python de ingestão. Essencialmente, o Dockerfile copiou o script Python, o arquivo CSV e as dependências listadas para o contêiner, permitindo o carregamento dos arquivos no bucket S3 conforme o caminho especificado no desafio.
+
+Ao executar o contêiner Docker e fornecer as credenciais adequadas via linha de comando, consegui enviar os arquivos para o bucket na AWS sem maiores problemas. Essa etapa do desafio foi concluída sem grandes dificuldades, pois foi focada principalmente no correto envio dos arquivos para o bucket, seguindo as instruções dadas. 
