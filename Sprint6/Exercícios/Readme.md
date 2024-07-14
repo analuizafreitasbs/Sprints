@@ -29,6 +29,7 @@
 
 ### 3. Lab AWS Lambda
 
-![aws](
-![aws](
-![aws](
+![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-14%20114239.png)
+![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-14%20114257.png)
+![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-14%20114310.png)
+![aws](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint6/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-07-14%20114740.png)
