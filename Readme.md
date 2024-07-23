@@ -94,6 +94,12 @@ _Em seguida, será definido um modelo de dados dimensional que guiará um novo p
 
         1. Todos os cursos de preparação para a prova da AWS (AWS Skill Builder) ✅
 
+  ✅ 8. Sprint 7
+  
+  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint7)
+
+        1. Formação Spark com Pyspark : o Curso Completo ✅
+        
  _____________________________________________________________________________________
 
   Grande abraço,
