@@ -1,0 +1,9 @@
+# Desafio final (entrega 2): 
+
+Primeiramente, criei uma conta no TMDB para obter a chave de API. Logo após, criei um arquivo layer.zip com a biblioteca tmdbv3api e subi esse arquivo para o meu bucket no S3. Em seguida, fiz o processo que tínhamos feito nos exercícios da sprint passada, criando uma camada (layer) para usar na minha função Lambda, utilizando Python 3.9.
+
+Depois, escolhi os dados complementares que iria enviar para o meu bucket. Minhas perguntas eram: "Qual o ano de lançamento dos filmes mais bem avaliados de romance e drama?" e "Quais séries de drama e romance receberam nota acima de 8 e qual é a mais bem votada?". Para isso, escolhi subir dados que completassem essas perguntas sobre as melhores séries e filmes de drama e romance, especificamente aqueles com as melhores avaliações, para condizer com as perguntas. Além disso, para casos de alteração nas minhas perguntas, também subi dados das séries e filmes de drama e romance com as piores avaliações.
+
+Houve, com certeza, a necessidade de usar recursos além do meu conhecimento para construir o código, especialmente na parte de filtrar apenas os gêneros drama e romance e de construir o dicionário que seria puxado do TMDB, pois não sabia como era o padrão do próprio site para poder fazer essa busca e nem os filtros necessários. Mas, de modo geral, não foi tão difícil, só deu alguns erros por problemas de permissão. Os arquivos encontrados não foram tão grandes, já que eram apenas complementos para minhas perguntas.
+
+O código em si serviu para fazer 4 uploads para o bucket, ajustando apenas alguns detalhes para subir os melhores e piores filmes e séries de drama e romance. A única coisa que dava problema era que o Lambda não tinha acesso ao meu bucket, mas consegui resolver isso colocando as credenciais. Acredito que, em resumo, foi isso. Os arquivos seguiram o modelo de caminho pedido e o limite de tamanho desejado, aparentemente cumprindo o que foi solicitado.
