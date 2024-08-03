@@ -1,0 +1,57 @@
+import sys
+from awsglue.transforms import *
+from awsglue.utils import getResolvedOptions
+from pyspark.context import SparkContext
+from awsglue.context import GlueContext
+from awsglue.job import Job
+
+args = getResolvedOptions(sys.argv, ['JOB_NAME'])
+sc = SparkContext()
+glueContext = GlueContext(sc)
+spark = glueContext.spark_session
+job = Job(glueContext)
+job.init(args['JOB_NAME'], args)
+
+# Ler o arquivo CSV do S3
+datasource0 = glueContext.create_dynamic_frame.from_options(
+    format_options={"separator": ",", "quoteChar": '"', "withHeader": True},
+    connection_type="s3",
+    format="csv",
+    connection_options={"paths": ["s3://glue-sprint7-ana/lab-glue/input/nomes.csv"], "recurse": True},
+    transformation_ctx="datasource0"
+)
+datasource0.printSchema()
+
+# Alterar a caixa dos valores da coluna nome para MAIÚSCULO
+applymapping1 = datasource0.apply_mapping([
+    ("nome", "string", "nome_upper", "string")
+], transformation_ctx="applymapping1")
+
+# Converter para DataFrame
+df = applymapping1.toDF()
+
+df = df.withColumn("nome_upper", upper(col("nome_upper")))
+
+# Imprimir a contagem de linhas
+print(f"Total de linhas: {df.count()}")
+
+# Agrupar por ano e sexo e contar os nomes
+df_grouped = df.groupBy("ano", "sexo").count()
+df_grouped.show()
+
+df_ordered = df.orderBy(desc("ano"))
+df_ordered.show()
+
+most_common_female = df.filter(df.sexo == 'F').groupBy("nome_upper", "ano").count().orderBy(desc("count")).first()
+print(f"Nome feminino mais comum: {most_common_female['nome_upper']} no ano {most_common_female['ano']}")
+
+most_common_male = df.filter(df.sexo == 'M').groupBy("nome_upper", "ano").count().orderBy(desc("count")).first()
+print(f"Nome masculino mais comum: {most_common_male['nome_upper']} no ano {most_common_male['ano']}")
+
+total_records_per_year = df.groupBy("ano").count().orderBy("ano")
+total_records_per_year.show(10)
+
+# Escrever o DataFrame no S3
+df.write.partitionBy("sexo", "ano").json("s3://glue-sprint7-ana/lab-glue/frequencia_registro_nomes_eua")
+
+job.commit()
