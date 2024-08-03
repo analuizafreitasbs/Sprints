@@ -6,4 +6,18 @@ No segundo exercício, utilizei o AWS Glue para processar dados. Criei um job no
 
 P.S: Estou entregando os exercícios da Sprint 7 durante a Sprint 8 porque decidi focar no desafio e usar o tempo restante para estudar para a faculdade, já que era o final do semestre. Esse arranjo foi acordado com o monitor.
 
-![colab]()
+![colab](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint7/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-08-02%20215323.png)
+
+![colab](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint7/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-08-02%20215337.png)
+
+![colab](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint7/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-08-02%20215748.png)
+
+![colab](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint7/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-08-02%20221709.png)
+
+![colab](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint7/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-08-02%20223749.png)
+
+![colab](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint7/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-08-02%20231758.png)
+
+![colab](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint7/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-08-02%20235032.png)
+
+![colab](https://github.com/analuizafreitasbs/Sprints/blob/main/Sprint7/Exerc%C3%ADcios/prints/Captura%20de%20tela%202024-08-02%20235448.png)
