@@ -100,6 +100,9 @@ _Em seguida, será definido um modelo de dados dimensional que guiará um novo p
 
         1. Formação Spark com Pyspark : o Curso Completo ✅
         
+  ✅ 9. Sprint 8
+  
+  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint8)
  _____________________________________________________________________________________
 
   Grande abraço,
