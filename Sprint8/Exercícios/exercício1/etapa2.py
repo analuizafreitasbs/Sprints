@@ -7,7 +7,6 @@ animals = [
 
 animals.sort()
 
-# Iterar sobre os itens e imprimir um a um
 [print(animal) for animal in animals]
 
 with open('animais.csv', 'w') as file:
