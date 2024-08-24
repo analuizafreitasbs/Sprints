@@ -103,6 +103,10 @@ _Em seguida, será definido um modelo de dados dimensional que guiará um novo p
   ✅ 9. Sprint 8
   
   [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint8)
+
+  ✅ 10. Sprint 9
+  
+  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint9)
  _____________________________________________________________________________________
 
   Grande abraço,
