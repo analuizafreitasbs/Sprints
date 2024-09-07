@@ -110,7 +110,7 @@ _Em seguida, será definido um modelo de dados dimensional que guiará um novo p
 
   ✅ 11. Sprint 10
   
-  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint10)
+  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint.10)
 
         1. Complete Introduction to Amazon QuickSight ✅
 
