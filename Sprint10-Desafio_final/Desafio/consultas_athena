@@ -1,0 +1,30 @@
+"Em quais anos foram lançados os filmes de drama com nota superior a 8 e mais de 1.000.000 votos?"
+
+SELECT DISTINCT
+    CAST(anolancamento.long AS INTEGER) AS anolancamento,
+    titulooriginal,
+    genero,
+    notamedia,
+    numerovotos
+FROM desafiofinal.refinedfilmes
+WHERE 
+    genero LIKE '%Drama%'
+    AND numerovotos > 1000000
+ORDER BY notamedia DESC, numerovotos DESC;
+
+"Quais séries de drama que receberam nota acima de 8.5 e qual é a mais bem votada nos últimos 20 anos?"
+
+SELECT distinct
+    titulooriginal,
+    genero,
+    anolancamento.long AS anolancamento,
+    notamedia,
+    numerovotos
+FROM desafiofinal.refinedseries
+WHERE 
+    (genero LIKE '%Drama%' OR genero LIKE '%Romance%')
+    AND notamedia > 8.5
+    AND anolancamento.long >= YEAR(CURRENT_DATE) - 20
+    AND numerovotos > 100000
+ORDER BY numerovotos DESC;
+
