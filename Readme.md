@@ -4,7 +4,7 @@
 
 ## **Sobre mim:👩‍💻**
 
-#### Meu nome é Ana Luiza Freitas e estou muito entusiasmada em me juntar a vocês nesta jornada empolgante no mundo da Tecnologia da Informação. Tenho 18 anos de idade e atualmente estou no primeiro semestre do curso de Sistema da Informação no Instituto Federal da Bahia, em Vitória da Conquista, estou embarcando na minha primeira experiência profissional na área. Sou uma pessoa dedicada e apaixonada por aprender. Estou sempre buscando novos desafios e oportunidades para expandir meu conhecimento e habilidades.
+#### Meu nome é Ana Luiza Freitas e estou muito entusiasmada em me juntar a vocês nesta jornada empolgante no mundo da Tecnologia da Informação. Tenho 18 anos de idade e atualmente estou no segundo semestre do curso de Sistema da Informação no Instituto Federal da Bahia, em Vitória da Conquista, estou embarcando na minha primeira experiência profissional na área. Sou uma pessoa dedicada e apaixonada por aprender. Estou sempre buscando novos desafios e oportunidades para expandir meu conhecimento e habilidades.
 
 ![logo do ifba](https://th.bing.com/th/id/R.61d27988c60c58469c44623a52f0fb33?rik=bUFiAWutZ5rSFQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-L5roZkPs9vg%2fUEvyIkOzE2I%2fAAAAAAAAAvg%2f-sV2SClQJ4c%2fs1600%2fIFBA.png&ehk=41yQUi%2bwKzztnblVPETBQTlBs7WUpXfFMuG6ptkc0Rs%3d&risl=&pid=ImgRaw&r=0)
 
@@ -40,7 +40,7 @@ _A AWS transformou a forma como empresas gerenciam serviços de TI na nuvem. Com
 
 _O desafio tem como objetivo construir um Data Lake para armazenar, processar e analisar dados de filmes e séries, facilitando o aprendizado de conceitos essenciais de Data Engineering aprendidos no estágio, como Python, Docker e funções da AWS. A primeira etapa envolve a ingestão de arquivos CSV contendo dados brutos para a camada Raw no S3. Após armazenar os dados no Data Lake, eles serão processados e padronizados na segunda camada, sendo organizados e catalogados em tabelas._
 
-_Em seguida, será definido um modelo de dados dimensional que guiará um novo processamento com Apache Spark, transferindo os dados para a terceira camada, onde serão novamente catalogados. Com os dados processados na terceira camada, a última etapa envolve o consumo das informações para análise sobre os gêneros de filmes e séries designados para cada grupo. No meu caso, são drama e romance. Dashboards analíticos serão desenvolvidos para responder a perguntas específicas definidas por mim: "Em quais anos foram lançados os filmes de drama com nota superior a 8 e mais de 1.000.000 votos?" e "Quais séries de drama e romance receberam nota acima de 8.5 e qual é a mais bem votada nos últimos 10 anos?". Essas perguntas guiam a exploração dos dados e a elaboração de insights significativos. O desafio, além de técnico, incentiva a análise crítica e a exploração das APIs do TMDB para enriquecer a compreensão dos dados._
+_Em seguida, será definido um modelo de dados dimensional que guiará um novo processamento com Apache Spark, transferindo os dados para a terceira camada, onde serão novamente catalogados. Com os dados processados na terceira camada, a última etapa envolve o consumo das informações para análise sobre os gêneros de filmes e séries designados para cada grupo. No meu caso, são drama e romance. Dashboards analíticos serão desenvolvidos para responder a perguntas específicas definidas por mim: "Em quais anos foram lançados os filmes de drama com nota superior a 8 e mais de 1.000.000 votos?" e "Quais séries de drama que receberam nota acima de 8.5 e qual é a mais bem votada nos últimos 20 anos?". Essas perguntas guiam a exploração dos dados e a elaboração de insights significativos. O desafio, além de técnico, incentiva a análise crítica e a exploração das APIs do TMDB para enriquecer a compreensão dos dados._
 
 
   ✅ 1. Cultura Ágil e Segurança 
@@ -108,9 +108,11 @@ _Em seguida, será definido um modelo de dados dimensional que guiará um novo p
   
   [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint9)
 
-   ✅ 11. Sprint 10
+  ✅ 11. Sprint 10
   
-  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint10-Desafio_final)
+  [Acessar:](https://github.com/analuizafreitasbs/Sprint/tree/main/Sprint10)
+
+        1. Complete Introduction to Amazon QuickSight ✅
 
  ______________________________________________________________________________
  
