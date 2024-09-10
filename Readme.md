@@ -4,7 +4,7 @@
 
 ## **Sobre mim:👩‍💻**
 
-#### Meu nome é Ana Luiza Freitas e estou muito entusiasmada em me juntar a vocês nesta jornada empolgante no mundo da Tecnologia da Informação. Tenho 18 anos de idade e atualmente estou no segundo semestre do curso de Sistema da Informação no Instituto Federal da Bahia, em Vitória da Conquista, estou embarcando na minha primeira experiência profissional na área. Sou uma pessoa dedicada e apaixonada por aprender. Estou sempre buscando novos desafios e oportunidades para expandir meu conhecimento e habilidades.
+#### Meu nome é Ana Luiza Freitas e estou muito entusiasmada em me juntar a vocês nesta jornada empolgante no mundo da Tecnologia da Informação. Tenho 19 anos de idade e atualmente estou no segundo semestre do curso de Sistema da Informação no Instituto Federal da Bahia, em Vitória da Conquista, estou embarcando na minha primeira experiência profissional na área. Sou uma pessoa dedicada e apaixonada por aprender. Estou sempre buscando novos desafios e oportunidades para expandir meu conhecimento e habilidades.
 
 ![logo do ifba](https://th.bing.com/th/id/R.61d27988c60c58469c44623a52f0fb33?rik=bUFiAWutZ5rSFQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-L5roZkPs9vg%2fUEvyIkOzE2I%2fAAAAAAAAAvg%2f-sV2SClQJ4c%2fs1600%2fIFBA.png&ehk=41yQUi%2bwKzztnblVPETBQTlBs7WUpXfFMuG6ptkc0Rs%3d&risl=&pid=ImgRaw&r=0)
 
